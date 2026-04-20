@@ -1,0 +1,15 @@
+# Core
+google-generativeai>=0.8.0
+google-genai>=0.3.0
+pdfplumber>=0.11.0
+PyMuPDF>=1.24.0
+pymupdf4llm>=0.0.10
+pdf2image>=1.17.0
+Pillow>=10.0.0
+numpy>=1.26.0
+pandas>=2.0.0
+tqdm>=4.66.0
+
+# Optional but recommended
+tiktoken>=0.7.0       # accurate token counting; falls back to approximation if missing
+python-dotenv>=1.0.0  # load GEMINI_API_KEY from a local .env file
